@@ -24,8 +24,6 @@ namespace InjectionDll
         public static extern IntPtr SendMessage(IntPtr hWnd, UInt32 Msg, IntPtr wParam, IntPtr lParam);
 
         public const UInt32 WM_CLOSE = 0x0010;
-
-        [DllImport("user32.dll")]
-        public static extern IntPtr GetActiveWindow();
+        
     }
 }

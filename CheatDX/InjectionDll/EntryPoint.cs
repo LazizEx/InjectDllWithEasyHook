@@ -82,7 +82,7 @@ namespace InjectionDll
                 StopCheckHostIsAliveThread();
 
 
-                // point of disposin all threads
+                // point to disposing all threads
                 //NativeMethods.MessageBox("Disposing");
             }
             catch (Exception e)
